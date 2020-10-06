@@ -1,3 +1,5 @@
+
+# Original function from: https://appuals.com/pin-unpin-application-windows-10/
 function Pin-App { 
     param(
         [string]$appname,
