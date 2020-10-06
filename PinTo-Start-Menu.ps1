@@ -34,7 +34,7 @@ function Pin-Taskbar-App {
     }
 }
 
-Pin-App "Microsoft PowerShell"
+Pin-App "Windows PowerShell"
 Pin-App "CMDer"
 Pin-App "x32dbg"
 Pin-App "x64dbg"
@@ -48,3 +48,11 @@ Pin-App "HxD"
 Pin-App "Sublime Text 3"
 
 Pin-Taskbar-App "cmder"
+
+New-Item -ItemType SymbolicLink -Target "C:\Program Files\x64dbg" -Path "C:\Users\IEUser\Desktop\x64bdg_directory"
+mkdir C:\Users\IEUser\Desktop\GhidraDb
+
+cd C:\Users\IEUser\Desktop
+rm eula.lnk
+rm README.txt
+rm -rf PS_Transcripts

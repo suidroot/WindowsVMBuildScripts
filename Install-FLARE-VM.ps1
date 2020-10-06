@@ -17,7 +17,8 @@
 ## Start Flare Install
 $flare_download = "https://github.com/fireeye/flare-vm/archive/master.zip"
 $password = "Passw0rd!"
-$working_dir = "C:\Users\IEUser\Desktop"
+$working_dir=$PWD
+#$working_dir = "C:\Users\IEUser\Desktop"
 $download_file = "$working_dir\flare.zip"
 
 Write-Host "Downloading $flare_download"
